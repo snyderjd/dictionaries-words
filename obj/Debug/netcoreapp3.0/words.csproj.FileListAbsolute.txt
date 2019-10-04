@@ -1,0 +1,11 @@
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words.deps.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words.runtimeconfig.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words.runtimeconfig.dev.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/bin/Debug/netcoreapp3.0/words.pdb
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/obj/Debug/netcoreapp3.0/words.csprojAssemblyReference.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/obj/Debug/netcoreapp3.0/words.AssemblyInfoInputs.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/obj/Debug/netcoreapp3.0/words.AssemblyInfo.cs
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/obj/Debug/netcoreapp3.0/words.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/dictionaries/words/obj/Debug/netcoreapp3.0/words.pdb
