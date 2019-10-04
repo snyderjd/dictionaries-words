@@ -7,27 +7,51 @@ namespace words
     {
         static void Main(string[] args)
         {
-            // Create a dictionary with key value pairs to represent words (key) and their definitions (value)
+            // Make a new list
+            List<Dictionary<string, string>> dictionaryOfWords = new List<Dictionary<string, string>>();
 
-            Dictionary<string, string> wordsAndDefinitions = new Dictionary<string, string>();
+            // /*
+            //     You want to track the following about each word:
+            //         word, definition, part of speech, example sentence
 
-            wordsAndDefinitions.Add("Awesome", "The feeling of students when they are learning C#");
-            wordsAndDefinitions.Add("stern", "back part of a ship");
-            wordsAndDefinitions.Add("knobber", "a stag in its second year");
-            wordsAndDefinitions.Add("upas", "poisonous or harmful institution or influence");
-            wordsAndDefinitions.Add("exodist", "one who goes out; emigrant");
+            //     Example of one dictionary in the list:
+            //     {
+            //         "word": "excited",
+            //         "definition": "having, showing, or characterized by a heightened state of energy, enthusiasm, eagerness",
+            //         "part of speech": "adjective",
+            //         "example sentence": "I am excited to learn C#!"
+            //     }
+            // */
+            Dictionary<string, string> stern = new Dictionary<string, string>();
+            stern.Add("word", "stern");
+            stern.Add("definition", "back part of a ship");
+            stern.Add("part of speech", "noun");
+            stern.Add("example sentence", "The boat has a large stern.");
 
-            // Use square brackets to get the definition of two of the words and then output them to the console
-            Console.WriteLine(wordsAndDefinitions["stern"]);
-            Console.WriteLine(wordsAndDefinitions["knobber"]);
+            dictionaryOfWords.Add(stern);
 
-            // Loop over the wordsAndDefinitions dictionary to get the following output:
-            //   The definition of (WORD) is (DEFINITION)
+            Dictionary<string, string> knobber = new Dictionary<string, string>();
+            knobber.Add("word", "knobber");
+            knobber.Add("definition", "a stag in its second year");
+            knobber.Add("part of speech", "noun");
+            knobber.Add("example sentence", "That knobber is a young buck.");
 
-            foreach (KeyValuePair<string, string> word in wordsAndDefinitions)
+            dictionaryOfWords.Add(knobber);
+
+            // Iterate your list of dictionaries and output the data. You can use the two foreach() loops below to help you start your iteration.
+
+            Console.WriteLine("Dictionary of Words");
+            Console.WriteLine("--------------------");
+
+            foreach(Dictionary<string, string> word in dictionaryOfWords)
             {
-                Console.WriteLine($"The definition of {word.Key} is {word.Value}.");
+                foreach(KeyValuePair<string, string> kvp in word)
+                {
+                    Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+                }
+                Console.WriteLine("--------------------");
             }
+
         }
     }
 }
